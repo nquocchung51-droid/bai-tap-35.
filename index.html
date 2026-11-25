@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Danh sách sản phẩm linh kiện máy tính">
+  <title>Bài tập 35 - Danh sách sản phẩm</title>
+  <link rel="stylesheet" href="css/style.css">
+  <script src="js/script.js" defer></script>
+</head>
+<body>
+  <header class="site-header">
+    <div class="container header-content">
+      <a class="brand" href="#" aria-label="Trang chủ">TECH<span>STORE</span></a>
+      <span class="header-note">Linh kiện máy tính chính hãng</span>
+    </div>
+  </header>
+
+  <main class="container">
+    <section class="hero">
+      <p class="eyebrow">BÀI TẬP 35</p>
+      <h1>Danh sách sản phẩm</h1>
+      <p>Tìm kiếm linh kiện máy tính phù hợp với nhu cầu của bạn.</p>
+    </section>
+
+    <section class="catalog" aria-labelledby="catalog-title">
+      <div class="catalog-heading">
+        <div>
+          <h2 id="catalog-title">Sản phẩm nổi bật</h2>
+          <p id="product-count" class="muted" aria-live="polite"></p>
+        </div>
+        <form id="search-form" class="search-form" role="search">
+          <label class="visually-hidden" for="search-input">Tìm theo tên sản phẩm</label>
+          <input id="search-input" type="search" placeholder="Nhập tên sản phẩm..." autocomplete="off">
+          <button type="submit">Tìm kiếm</button>
+        </form>
+      </div>
+
+      <p id="search-message" class="message" role="status" aria-live="polite"></p>
+      <div id="product-list" class="product-grid"></div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container">© 2026 TECHSTORE · Bài tập thực hành HTML, CSS và JavaScript</div>
+  </footer>
+</body>
+</html>
